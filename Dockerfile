@@ -8,8 +8,7 @@ RUN --mount=type=secret,id=NODE_AUTH_TOKEN \
     npm ci --prefer-offline --no-audit --ignore-scripts
 
 COPY . /usr/src/app
-RUN npm run build && \
-    npm prune --production --offline
+RUN npm prune --production --offline
 
 FROM node:16-alpine AS runtime
 
