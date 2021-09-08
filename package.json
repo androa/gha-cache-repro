@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/androa/gha-cache-repro/issues"
   },
-  "homepage": "https://github.com/androa/gha-cache-repro#readme"
+  "homepage": "https://github.com/androa/gha-cache-repro#readme",
+  "dependencies": {
+    "jose": "^3.16.1"
+  }
 }
